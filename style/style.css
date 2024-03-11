@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 1;
+}
+main{
+    flex: 1 0 auto;
+   
+}
+#hero-section{
+    background: url(../Assets/images/architect.jpg);
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+#br{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+#hero-section h1{
+    font-size: 30px;
+}
+#about-section img{
+    filter: grayscale(0.75);
+}
+
+
